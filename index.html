@@ -11,67 +11,65 @@
   </head>
   <body>
     <header>
-      <div>
-        <a class="navbar-brand" href="#">
-          <img src="..." alt="Amazing Events">
-        </a>
-        <nav class="nav justify-content-end">
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link active"href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="upcoming-events.html">Upcomings Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="past-events.html">Past Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="stats.html">Stats</a>
-              </li>
-          </ul>
-        </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a class="navbar-brand" href="#">
+            <img src="./assets/img/Logo_Amazing_Events.png" alt="Amazing Events">
+          </a>
+          </div>
+          <div class="col">
+            <nav class="nav justify-content-end">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="upcoming-events.html">Upcomings Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="past-events.html">Past Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="stats.html">Stats</a>
+                  </li>
+              </ul>        
+            </nav>
+          </div>
+        </div>
       </div>
     </header>
     <main>
-      <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">                
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link"href="#">Category</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"href="#">Category</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"href="#">Category</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Category</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Category</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                </svg>
-                </button>
-              </form>
-            </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <form class="d-flex" action="" method="get">
+              <input type="checkbox" name="categories" id="Category1" value="Category1">
+              <label for="Category1">Category</label>
+              <input type="checkbox" name="categories" id="Category2" value="Category2">
+              <label for="Category2">Category</label>
+              <input type="checkbox" name="categories" id="Category3" value="Category3">
+              <label for="Category3">Category</label>
+              <input type="checkbox" name="categories" id="Category4" value="Category4">
+              <label for="Category4">Category</label>
+              <input type="checkbox" name="categories" id="Category5" value="Category5">
+              <label for="Category5">Category</label>
+            </form>
           </div>
-        </nav>
+          <div class="col">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
       <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
