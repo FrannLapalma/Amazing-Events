@@ -47,7 +47,7 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <form class="d-flex" action="" method="get">
+              <form action="" method="get">
                 <input type="checkbox" name="categories" id="Category1" value="Category1">
                 <label for="Category1">Category</label>
                 <input type="checkbox" name="categories" id="Category2" value="Category2">
@@ -98,23 +98,35 @@
           </div>
         </div>
       </section>
-      <form action="" method="get">
-        <fieldset>
-          <label for="name">Name:
-            <input type="text" name="name" id="name">
-          </label>
-        </fieldset>
-        <fieldset>
-          <label for="email">Email:
-            <input type="email" name="email" id="email">
-          </label>
-        </fieldset>
-        <fieldset>
-          <label for="message">Message:
-            <input type="text" name="message" id="message">
-          </label>
-        </fieldset>
-      </form>
+      <div class="container">
+          <form class="contact-form">
+              <div class="row">
+                <div class="col">
+                  <label for="text-form" class="form-label">Name:</label>
+                  <input type="text" class="form-control" id="text-form">
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col">
+                    <label for="email-form" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email-form" placeholder="name@example.com">
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col">
+                    <label for="text-form" class="form-label">Message:</label>
+                    <textarea class="form-control" id="text-form" rows="3"></textarea>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="form-button">
+                    <button type="submit" class="btn btn-dark">Submit</button>
+                  </div>
+                </div>
+              </div>
+          </form>
+      </div>   
     </main>
     <footer>
         <div class="row col-3">
