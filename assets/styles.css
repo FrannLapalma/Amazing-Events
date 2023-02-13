@@ -46,6 +46,7 @@ header img {
 
 main {
     padding: 1rem;
+    background-color: var(--color-cuatro);
 }
 
 .row{
@@ -69,4 +70,29 @@ h1 {
 .button-h1-right{
     display: flex;
     justify-content: end;
+}
+
+.card-img-top{
+    height: 200px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+}
+
+.card-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+footer{
+    background-color: var(--color-uno);
 }
