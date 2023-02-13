@@ -43,3 +43,30 @@ header img {
     background-color: var(--color-cuatro);
     color: var(--color-tres);
 }
+
+main {
+    padding: 1rem;
+}
+
+.row{
+    padding: 1rem;
+}
+
+label{
+    padding:1rem
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color:#913175;
+}
+
+.button-h1-left{
+    display: flex;
+    justify-content: start;
+}
+.button-h1-right{
+    display: flex;
+    justify-content: end;
+}
