@@ -111,14 +111,7 @@ h1 {
 table{
     background-color: var(--color-tres);
     border: 2px solid var(--color-uno);
-}
-
-td {
-    border: 2px solid var(--color-uno);
-}
-
-th {
-    border: 2px solid var(--color-uno);
+    padding: 1rem;
 }
 
 footer{
