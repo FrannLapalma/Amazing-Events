@@ -44,9 +44,8 @@ header img {
     color: var(--color-tres);
 }
 
-main {
-    padding: 1rem;
-    background-color: var(--color-cuatro);
+body {
+    background-color: var(--color-cuatro) !important;
 }
 
 .row{
@@ -55,6 +54,12 @@ main {
 
 label{
     padding:0.5rem;
+}
+
+.section-h1{
+    background-color: #42445f;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -92,8 +97,36 @@ h1 {
     align-items: center;
 }
 
+.card-event-details{
+    background-color: var(--color-tres);
+    margin: 3rem;
+    border: 1px solid var(--color-uno);
+    width: 80%;
+    height: auto;
+}
+
+.img-events-details{
+    border: 1px solid var(--color-uno);
+    background-color: var(--color-cuatro);
+    height: 40vh;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-event-text{
+    border: 1px solid var(--color-uno);
+    background-color: var(--color-cuatro);
+    margin: 0.5rem;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact-form {
-    width: 60%;
+    margin: 1rem;
     background-color: var(--color-tres);
     border-radius: 3%;
 }
@@ -111,9 +144,14 @@ h1 {
 table{
     background-color: var(--color-tres);
     border: 2px solid var(--color-uno);
-    padding: 1rem;
+    margin-bottom: 0 !important;
+}
+
+#table{
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
 }
 
 footer{
-    background-color: var(--color-tres);
+    background-color: var(--color-tres);;
 }
