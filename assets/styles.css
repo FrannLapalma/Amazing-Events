@@ -16,7 +16,8 @@ header {
     background-color: var(--color-uno);
     padding: 1rem;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    height: 20vh;
 }
 
 header img {
@@ -98,17 +99,19 @@ h1 {
 }
 
 .card-event-details{
+    display: flex;
+    flex-wrap: wrap;
     background-color: var(--color-tres);
-    margin: 3rem;
+    margin: 2rem;
     border: 1px solid var(--color-uno);
-    width: 80%;
+    width: 50vh;
     height: auto;
 }
 
 .img-events-details{
     border: 1px solid var(--color-uno);
     background-color: var(--color-cuatro);
-    height: 40vh;
+    height: 50vh;
     margin: 0.5rem;
     display: flex;
     justify-content: center;
@@ -119,7 +122,7 @@ h1 {
     border: 1px solid var(--color-uno);
     background-color: var(--color-cuatro);
     margin: 0.5rem;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,5 +156,5 @@ table{
 }
 
 footer{
-    background-color: var(--color-tres);;
+    background-color: var(--color-tres);
 }
