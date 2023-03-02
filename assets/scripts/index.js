@@ -23,5 +23,3 @@ function addCardsEvents(arrayEvents) {
     }
     return cardsEvents 
 }
-
- 
