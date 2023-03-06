@@ -1,5 +1,7 @@
 const card = document.querySelector('#event')
+
 const filterCheckbox = document.getElementsByClassName("checkFilter")
+
 const searchInput = document.getElementById("searchInput")
 
 let cardsEvents = addCardsEvents(data.events)
@@ -14,8 +16,8 @@ function addCardsEvents(arrayEvents) {
                     <h5 class="card-title">${events.name}</h5>
                     <p class="card-text">${events.description}</p>
                     <div class="card-details">
-                        <a href="#" class="card-link">$${events.price}</a>
-                        <a href="details.html" class="btn btn-secondary">View more</a>
+                        <p class="card-text">U$S ${events.price}</p>
+                        <a href="./details.html?id=${events.id}" class="btn btn-secondary">View more</a>
                     </div>                  
                 </div>
             </div>
@@ -23,26 +25,3 @@ function addCardsEvents(arrayEvents) {
     }
     return cardsEvents 
 }
-
-searchInput.addEventListener("change",()=>{
-    console.log("caambio");
-})
-
-
-
-/*  */
-/* function categoryCheck(){
-filterCheckbox.addEventListener("click",()=>{
-    console.log("evento elegido")
-    })
-} */
-
-/* function eventsFilteredbyCategories(){   
-    data.events.forEach((event) => {
-    let eventsFiltered = ''  
-
-    console.log("evento nuevo")
-
-    addCardsEvents(eventsFiltered)
-    })
-}; */
